@@ -1,33 +1,26 @@
-# Project Assignment
-
-## Context
-
-Data Scientist Salary in 2021 in the U.S.
+# Project Assignment - Crime in the U.S.
 
 ## Content
+### 1. Introduction
+### 2. Summary Statistics
+### 3. Exploratory
+### 4. Analysis
 
-* [Introduction](#introduction) 
-* [Analysis and Visualization](#analysis-and-visualization)
-* [Conclusion](#conclusion)
 
-### Introduction
+### 1. Introduction
+Safety is our number one priority to us. Therefore, I would like to research the criminal case and rates in the U.S. 
+The original data set contains the crime rates and totals for states across the United States for a wide range of years. The crime reports are divided into two main categories: property and violent crime. Property crime refers to burglary, larceny, and motor related crime while violent crime refers to assault, murder, rape, and robbery. The reports go from 1960 to 2019. The dataset has 2 categorical variables, 19 numeric variables, and 3115 observations.
 
-The interest to become Data Analyst made me to explore the salaries around the companies in the U.S. Expecially, I would like to know the minimum, maximum, and the average salary, which company has the highest average salary, is the degree related to the salary? etc.
+I found the dataset from the CORGIS Data website. Here is the link to the dataset I have worked on: https://corgis-edu.github.io/corgis/csv/state_crime/ 
 
-I think working on this data set is important to every students in this class because this work is related to our certificate program and I hope everyone is interested in it.
-
-This dataset was originally from www.glassdoor.com in USA and cleaned the records from 1000 to 742 by Nikhol Bhathi. After this, several simplifications were performed to make the data user friendly for further data analysis and modelling.
-
-The dataset is derived from https://www.kaggle.com/nikhilbhathi/data-scientist-salary-us-glassdoor.
+#### Cleaning and Changes
+There were not any missing data in the dataset. 
+I added the following 2 categorical variables to the original csv file.
     
-### Analysis and Visualization
+	1. Region: West, Midwest, Northeast, South /Classified regions by Business Insider Website/
+    
+   ![US%20Region.PNG](attachment:US%20Region.PNG)
+       2. Decades: 1960s, 1970s, 1980s, 1990s, 2000s, 2010s
 
-* From 742 observations, the average lower salary was 74.75 thousands, the average upper salary was 128.21, and the average salary was 101.48 thousands dollars.
-* The highest upper salary amount was in the company of Liberty Mutual Insurance, located in Illinois, 306 thousands in 2021. In contrast, the company of NPD which is located in New York had the lowest upper salary with amount of 16 thousands.
-* There were companies in 37 states in the dataset. California had the highest number of companies with 152 but Rhode Island, South Carolina ahd the lowest number of companies with 1.
-
-### Conclusion
-
-I hope I can find the helpful analysis for us how the factors affects to the people who work in Data Science field. Therefore, we will gain insights of the average salary, which company can pay highest salary, etc. Also, we can plan which state is more suitable for us to work as an data scinetist, data analyst, and so on.
-
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/github/nomondari/Project-Assignment)
 
