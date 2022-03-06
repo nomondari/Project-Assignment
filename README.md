@@ -22,5 +22,5 @@ I added the following 2 categorical variables to the original csv file.
    ![US%20Region.PNG](attachment:US%20Region.PNG)
        2. Decades: 1960s, 1970s, 1980s, 1990s, 2000s, 2010s
 
-[![Binder](https://mybinder.org/badge_logo.svg)](http://localhost:8888/notebooks/OneDrive/Documents/GitHub/Project-Assignment/Project%20Assignment.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](http://nomondari.github.io/Project-Assignment/)
 
